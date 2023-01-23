@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+
+body {
+    font-family: lato, Arial, sans-serif;
+    font-weight: 300;
+    color: brown;
+}
+
+
+/* logo */
+
+h1, h2 {
+    font-family: Oswald, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: brown;
+}
+
+.logo {
+    float: left;
+    font-size: 200%;
+}
+/* Navigation links */
+.menu {
+    font-size: 120%;
+    letter-spacing: 6px;
+}
+
+/* Navigation links height is set below */
+
+.menu, .logo {
+    line-height: 70px;
+}
+.menu li {
+    float:right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+/* Navigation links text decoration inheriting the body color*/
+.menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu a:hover {
+    border-bottom: 1px solid brown;
+}
+
+.active {
+    border-bottom: 1px solid brown;
+}
