@@ -26,6 +26,7 @@ h1, h2 {
 .logo {
     float: left;
     font-size: 200%;
+    margin-left: 20px;
 }
 /* Navigation links */
 .menu {
@@ -65,9 +66,62 @@ h1, h2 {
     overflow: hidden;
 }
 
+/* background image*/
+
 #playground {
     height: 600px;
     width: 100%;
     background: url(../images/playground.jpg) no-repeat center center;
 }
 
+#fun-image {
+    height: 600px;
+}
+
+#left-image {
+    padding-top: 30px;
+    width: 60%;
+    float: left;
+}
+
+#right-image {
+    padding-top: 30px;
+    width: 40%;
+    float: right;
+}
+hr {
+    border-top: 1px solid brown;
+    width: 100%;
+    margin: 2px 0;
+}
+
+.advert {
+    width: 60%;
+    float: right;
+    line-height: 40px;
+    clear: both;
+    line-height: 40px;
+}
+
+.left-image-style {
+    background: url(../images/playground2.jpg) no-repeat center center;
+    height: 400px;
+}
+
+.right-image-style {
+    background: url(../images/playground1.avif) no-repeat center center;
+    height: 400px;
+}
+
+
+footer {
+    height: 150px;
+}
+
+.social-sites {
+    text-align: center;
+}
+
+.social-sites >li {
+    display: inline;
+}
