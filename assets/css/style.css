@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&family=Roboto:wght@300&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     border: none;
 
 }
@@ -11,117 +11,101 @@ body {
     font-family: lato, Arial, sans-serif;
     font-weight: 300;
     color: brown;
+    background-color: #00ffff;
 }
 
 
-/* logo */
+/* logo and heading */
 
-h1, h2 {
+ h2 {
     font-family: Oswald, Arial, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    color: brown;
+    letter-spacing: 4px;
 }
 
-.logo {
+#logo {
     float: left;
     font-size: 200%;
     margin-left: 20px;
+    color: brown;
 }
 /* Navigation links */
-.menu {
-    font-size: 120%;
-    letter-spacing: 6px;
+#list-page {
+    font-size: 110%;
+    letter-spacing: 4px;
 }
 
-/* Navigation links height is set below */
-
-.menu, .logo {
-    line-height: 70px;
+#list-page, #logo {
+    line-height: 75px;
 }
-.menu li {
-    float:right;
+#list-page li {
+    float: right;
     list-style-type: none;
     margin-right: 30px;
 }
 
-/* Navigation links text decoration inheriting the body color*/
-.menu a {
+
+#list-page a {
     text-decoration: none;
     color: inherit;
 }
-
-.menu a:hover {
+#list-page a:hover {
     border-bottom: 1px solid brown;
 }
 
 .active {
-    border-bottom: 1px solid brown;
+    border-bottom: 1px solid #3a3a3a;
 }
 
-/* reduce the image below the logo with overflow hiden*/
-.image-outer {
+/* Main page image */
+
+#main-page-image {
     height: 600px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
 }
-
-/* background image*/
-
-#playground {
+#page-image {
     height: 600px;
     width: 100%;
     background: url(../images/playground.jpg) no-repeat center center;
 }
 
-#fun-image {
-    height: 600px;
+#Out-side-fun h2 {
+    color: brown;
 }
 
-#left-image {
-    padding-top: 30px;
-    width: 60%;
-    float: left;
-}
-
-#right-image {
-    padding-top: 30px;
-    width: 40%;
-    float: right;
-}
-hr {
-    border-top: 1px solid brown;
-    width: 100%;
-    margin: 2px 0;
-}
-
-.advert {
-    width: 60%;
-    float: right;
-    line-height: 40px;
+.Out-side-fun {
+    text-align: center;
+    font-size: 200%;
+    text-transform: uppercase;
     clear: both;
-    line-height: 40px;
 }
 
-.left-image-style {
-    background: url(../images/playground2.jpg) no-repeat center center;
-    height: 400px;
+#Opening-Hour-page {
+    text-align: left;
+    height: 200px;
 }
 
-.right-image-style {
-    background: url(../images/playground1.avif) no-repeat center center;
-    height: 400px;
+#Opening-Hour {
+    margin-left: 10%;
 }
-
 
 footer {
-    height: 150px;
+    height: 20px;
 }
-
-.social-sites {
+.media-webpage {
     text-align: center;
 }
 
-.social-sites >li {
+.media-webpage >li {
     display: inline;
+}
+
+.media-webpage i {
+    font-size: 160%;
+    margin: 1px;
+    padding: 2%;
+    color: black;
 }
