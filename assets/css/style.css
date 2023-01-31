@@ -25,7 +25,7 @@ body {
 
 #logo {
     float: left;
-    font-size: 200%;
+    font-size: 150%;
     margin-left: 20px;
     color: brown;
 }
@@ -72,28 +72,29 @@ body {
     background: url(../images/playground.jpg) no-repeat center center;
 }
 
-#Out-side-fun h2 {
+.out-side-fun h2 {
     color: brown;
 }
 
-.Out-side-fun {
+.out-side-fun {
     text-align: center;
     font-size: 200%;
     text-transform: uppercase;
     clear: both;
 }
 
-#Opening-Hour-page {
+#opening-hour-page {
     text-align: left;
     height: 200px;
+    letter-spacing: 1px;
 }
 
-#Opening-Hour {
-    margin-left: 10%;
+#opening-Hour {
+    margin-left: 5%;
 }
 
 footer {
-    height: 20px;
+    height: 10px;
 }
 .media-webpage {
     text-align: center;
@@ -105,7 +106,96 @@ footer {
 
 .media-webpage i {
     font-size: 160%;
-    margin: 1px;
+    margin: 0px;
+    padding: 2%;
+    color: brown;
+}
+
+#signup-form {
+        position: relative;
+        width: 180px;
+        height: 120px;
+        padding-bottom: 10%;
+        padding-top: 10%;
+    
+        top: 250%;
+        left: 70%;
+        margin-top: 1px;
+        margin-left: 1px;
+    }
+    
+#submit a:hover {
+    background-color: brown;
+    color: brown;
+}
+
+.media-webpage-signup {
+    text-align: center;
+}
+
+.media-webpage-signup >li {
+    display: inline;
+}
+
+.media-webpage-signup i {
+    font-size: 150%;
+    margin-top: 110px;
+    margin-bottom: 2px;
     padding: 2%;
     color: black;
 }
+
+#signup-image {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    padding-bottom: 10%;
+    padding-top: 10%;
+
+    top: 10%;
+    left: 30%;
+    margin-top: -500px;
+    margin-left: -75px;
+    opacity: 0.9;
+}
+
+#opening-hour-contact {
+    text-align: left;
+    height: 100px;
+    margin-left: 60px;
+    letter-spacing: 1px;
+}
+
+#opening-hour-signup {
+    text-align: left;
+    height: 100px;
+    margin-left: 75px;
+    letter-spacing: 1px;
+}
+
+#opening-hour-page-signup{
+    text-align: left;
+    height: 100px;
+    margin-left: 75px;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width:480px) {
+    #list-page li {
+        width: 45%;
+        height: 400px;
+    }
+
+    .media-webpage-signup i {
+        width: 25%;
+        height: 300px;
+    }
+
+    #signup-form {
+        width: 65%;
+        height: 480px;
+    }
+    
+}
+
+
