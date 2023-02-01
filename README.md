@@ -5,6 +5,20 @@ After school playing events for children and teens
 
 Fun Day is after school events for Children and Teens to socialise with thier peers by taking part in our daily events all through the season. Parents can register their children and teens to keep them busy after school hours.
 
+## Goals
+Fun Day is a Web application that allow parent to signup and register their children or teen for after school activity. the goal is to eliminate boredom and generate time for parents with busy schedule.
+
+##User goals
+1. Web page is easily accessible through search engine.
+2. The navigation bars are clearly visible.
+3. The signup page form is large enough 
+4. And the contact page has two options to take.
+
+
+## Images
+1. https://www.irishtimes.com/life-and-style/health-family/parenting/50-of-the-best-playgrounds-in-ireland-1.3081358
+2. https://www.fieldsintrust.org/Upload/NewsImage/637006152881209242.jpg
+
 ![image](https://user-images.githubusercontent.com/122373462/215998968-16b6c32d-8c04-432a-b67e-8ba4be1ca8f1.png)
 
 ## Join Fun Day
