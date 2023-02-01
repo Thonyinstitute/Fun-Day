@@ -18,9 +18,14 @@ If you have any question, do well to contact us and to do so,
 1. Navigate to the left side of either on the Home page, Contact page and the Sign Up page
 2. You can email us or call.
 
-## Creating history
 
-** I used Windows 11 laptop with extenal monitor.
+## main Technlogies
+1. HTML, CSS
+2. Windows 11 laptop with extenal monitor.
+3. Google browser, Microsoft edge
+
+
+## Creating history
 ** I used Love Running challenge from Code Institute to design almost everything.
 ** I got the front page image from https://www.irishtimes.com/life-and-style/health-family/parenting/50-of-the-best-playgrounds-in-ireland-1.3081358
 ** I got the signup image from https://www.fieldsintrust.org/Upload/NewsImage/637006152881209242.jpg
