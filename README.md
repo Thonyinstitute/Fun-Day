@@ -8,7 +8,7 @@ Fun Day is after school events for Children and Teens to socialise with thier pe
 ## Goals
 Fun Day is a Web application that allow parent to signup and register their children or teen for after school activity. the goal is to eliminate boredom and generate time for parents with busy schedule.
 
-##User goals
+## User goals
 1. Web page is easily accessible through search engine.
 2. The navigation bars are clearly visible.
 3. The signup page form is large enough 
