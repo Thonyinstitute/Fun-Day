@@ -7,7 +7,8 @@ Fun Day is after school events for Children and Teens to socialise with thier pe
 ![image](https://user-images.githubusercontent.com/122373462/215998968-16b6c32d-8c04-432a-b67e-8ba4be1ca8f1.png)
 
 ##Join Fun Day
-1. Browse https://github.com/Thonyinstitute/Fun-Day 
+
+1. Browse https://github.com/Thonyinstitute/Fun-Day using Chrome, Microsoft edge, Safari, firefox and many more.
 2. Navigate to the Sign Up bar at the top right conner.
 3. Click the Sign Up and you will be re-directed to the signup page
 4. Enter your firstname, lastname, email, password and click on the Signup button below the form.
@@ -25,6 +26,9 @@ If you have any question, do well to contact us and to do so,
 ** I used the coffee challenge for the Opening Hours days and time design
 ** Again I used the Love running challenge for the social media in the footer of the page
 
+
+##Manual Test:
+Verify Fun day browser: Open google browser, enter https://github.com/Thonyinstitute/Fun-Day: Expected result: Fun day webpage should display: Actual result: Fun day webpage is displ
 
 
  
