@@ -27,8 +27,18 @@ If you have any question, do well to contact us and to do so,
 ** Again I used the Love running challenge for the social media in the footer of the page
 
 
-##Manual Test:
-Verify Fun day browser: Open google browser, enter https://github.com/Thonyinstitute/Fun-Day: Expected result: Fun day webpage should display: Actual result: Fun day webpage is displ
+## Manual Test:
+
+| Description                       | Steps                                                                       |Expect Result                  |Actual Result
+| test to verify webpage responsive | browse https://github.com/Thonyinstitute/Fun-Day, 
+                                    |right click on any part of the page, scroll down to inspect and click, 
+                                     drag the left page toward left                                                |content of Page should aline | Content and image do not aline
+|Test to verify Fun day in browser  | Open google browser, enter https://github.com/Thonyinstitute/Fun-Day| Fun day webpage should display        | Fun day webpage is displ
+|Test to very Signup page works as expected | Navigate on the right top to Signup and click                | Signup should display as expected     | Signup is displayed
+|Test to verify Signup form input fields| Enter firstname, lastname, email, password and click Signup button|Form input file should be cleared or empty| Form is cleared empty 
+|Test to verify (facebook, instagram, twitter and youtube)works as expected | Browse https://github.com/Thonyinstitute/Fun-Day,scroll than to the bottom and click (facebook, instagram, twitter and youtube).| facebook, instagram, twitter and youtube should display as expected | facebook, instagram, twitter and youtube displayed are expected.
+ 
+
 
 
  
