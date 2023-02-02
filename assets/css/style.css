@@ -180,22 +180,19 @@ footer {
     letter-spacing: 1px;
 }
 
-@media screen and (max-width:480px) {
-    #list-page li {
+@media screen and (min-width) {
+    #main-body{
         width: 45%;
         height: 400px;
     }
-
-    .media-webpage-signup i {
-        width: 25%;
-        height: 300px;
-    }
-
-    #signup-form {
-        width: 65%;
-        height: 480px;
-    }
-    
 }
+
+@media screen and (max-width) {
+    #main-body {
+        width: 45%;
+        height: 400px;
+    }
+}
+
 
 
