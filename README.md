@@ -12,7 +12,7 @@ Fun Day is a Web application that allow parent to signup and register their chil
 1. Web page is easily accessible through search engine.
 2. The navigation bars are clearly visible.
 3. The signup page form is large enough 
-4. And the contact page has two options to take.
+4. I used font-family lato and Oswald for the entire text content.
 
 
 ## Images
