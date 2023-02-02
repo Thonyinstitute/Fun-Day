@@ -67,7 +67,6 @@ If you have any question, do well to contact us and to do so,
 ## Bugs
 
 1. The Webpage responsive to different devices failed
-2. the navigation bar from contact page to home failed
 
 ## Reference
 1. Slack Community have been tremediously helpful
