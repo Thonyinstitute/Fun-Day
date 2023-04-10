@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&family=Roboto:wght@300&display=swap');
 
 * {
@@ -9,190 +10,70 @@
 
 body {
     font-family: lato, Arial, sans-serif;
-    font-weight: 300;
+    width: 98%;
+    height: 100px;
     color: brown;
+    border-radius: 50%;
     background-color: #00ffff;
+    
 }
 
 
 /* logo and heading */
 
- h2 {
-    font-family: Oswald, Arial, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-}
-
-#logo {
-    float: left;
-    font-size: 150%;
-    margin-left: 20px;
+h2 {
+    text-align: center;
+    position: relative;
+    top: 25px;
     color: brown;
 }
-/* Navigation links */
-#list-page {
-    font-size: 110%;
-    letter-spacing: 4px;
-}
 
-#list-page, #logo {
-    line-height: 75px;
+#navigation{
+    margin: 20px;
+    border-radius: 50%;
+    padding: 10px; left: 15px;
+    letter-spacing: 8px;
+    color: brown;
 }
-#list-page li {
-    float: right;
+ ul {
     list-style-type: none;
-    margin-right: 30px;
-}
+    margin: 0;
+    padding: 0;
+    float: right;
+ }
 
-
-#list-page a {
-    text-decoration: none;
-    color: inherit;
-}
-#list-page a:hover {
-    border-bottom: 1px solid brown;
-}
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
-
-/* Main page image */
-
-#main-page-image {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-
-    position: relative;
-}
-#page-image {
-    height: 600px;
-    width: 100%;
-    background: url(../images/playground.jpg) no-repeat center center;
-}
-
-.out-side-fun h2 {
-    color: brown;
-}
-
-.out-side-fun {
-    text-align: center;
-    font-size: 200%;
-    text-transform: uppercase;
-    clear: both;
-}
-
-#opening-hour-page {
-    text-align: left;
-    height: 200px;
-    letter-spacing: 1px;
-}
-
-#opening-Hour {
-    margin-left: 5%;
-}
-
-footer {
-    height: 10px;
-}
-.media-webpage {
-    text-align: center;
-}
-
-.media-webpage >li {
+ li {
     display: inline;
-}
+    font-weight: bold;
+    color: solid brown;
+ }
 
-.media-webpage i {
-    font-size: 165%;
-    margin: 1px;
-    padding: 2%;
+ ul li a:hover {
+    background: brown;
+    color: blue;
+
+ }
+
+ img {
+    width: 800px;
+    height: 600px;
+    border-radius: 8px;
+    float: inherit;
+ }
+
+ #opening-Hour{
+    margin: 20px;
+    border-radius: 50%;
+    padding: 10px; left: 15px;
+    letter-spacing: 8px;
     color: brown;
 }
-
-#signup-form {
-        position: relative;
-        width: 180px;
-        height: 120px;
-        padding-bottom: 10%;
-        padding-top: 10%;
-    
-        top: 250%;
-        left: 70%;
-        margin-top: 1px;
-        margin-left: 1px;
-    }
-    
-#submit a:hover {
-    background-color: brown;
-    color: brown;
-}
-
-.media-webpage-signup {
-    text-align: center;
-}
-
-.media-webpage-signup >li {
+footer ul li a {
     display: inline;
-}
+    font-weight: bold;
+    color: solid brown;
+ }
 
-.media-webpage-signup i {
-    font-size: 150%;
-    margin-top: 110px;
-    margin-bottom: 2px;
-    padding: 2%;
-    color: black;
-}
-
-#signup-image {
-    position: relative;
-    width: 200px;
-    height: 100px;
-    padding-bottom: 10%;
-    padding-top: 10%;
-
-    top: 10%;
-    left: 30%;
-    margin-top: -500px;
-    margin-left: -75px;
-    opacity: 0.9;
-}
-
-#opening-hour-contact {
-    text-align: left;
-    height: 100px;
-    margin-left: 60px;
-    letter-spacing: 1px;
-}
-
-#opening-hour-signup {
-    text-align: left;
-    height: 100px;
-    margin-left: 75px;
-    letter-spacing: 1px;
-}
-
-#opening-hour-page-signup{
-    text-align: left;
-    height: 100px;
-    margin-left: 75px;
-    letter-spacing: 1px;
-}
-
-@media screen and (min-width) {
-    #main-body{
-        width: 45%;
-        height: 400px;
-    }
-}
-
-@media screen and (max-width) {
-    #main-body {
-        width: 45%;
-        height: 400px;
-    }
-}
 
 
 
