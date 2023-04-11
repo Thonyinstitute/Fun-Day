@@ -27,7 +27,7 @@ h2 {
     top: 25px;
     color: brown;
 }
-
+/* Navigation bar */
 #navigation{
     margin: 20px;
     border-radius: 50%;
@@ -53,27 +53,16 @@ h2 {
     color: blue;
 
  }
-
+/* front page image */
  img {
     width: 800px;
     height: 600px;
     border-radius: 8px;
     float: inherit;
  }
-
- #opening-Hour{
-    margin: 20px;
-    border-radius: 50%;
-    padding: 10px; left: 15px;
-    letter-spacing: 8px;
-    color: brown;
-}
-footer ul li a {
-    display: inline;
-    font-weight: bold;
-    color: solid brown;
+ #opening-Hour {
+    text-align: center;
  }
-
 
 
 
