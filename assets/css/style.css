@@ -10,24 +10,16 @@
 
 body {
     font-family: lato, Arial, sans-serif;
-    max-width: 80%;
-    height: 90px;
+    max-width: 90%;
+    height: 100px;
     padding-left: 10rem;
     padding-right: 1.5rem;
     color: brown;
-    border-radius: 50%;
     background-color: rgb(0, 247, 255);
 }
 
 
 /* logo and heading */
-
-h2 {
-    text-align: center;
-    position: relative;
-    top: 25px;
-    color: brown;
-}
 
 h3 {
    text-align: center;
@@ -36,11 +28,11 @@ h3 {
 }
 /* Navigation bar */
 #navigation {
-    margin: 20px;
-    border-radius: 50%;
-    padding: 2px; left: 15px;
-    letter-spacing: 9px;
-    color: inherit;
+    height: 60px;
+    width: auto;
+    position: relative; left: -80px; top: 0px;
+    text-align: center;
+    letter-spacing: 8px;
 }
 ul {
     list-style-type: none;
@@ -61,39 +53,56 @@ li {
  }
 /* front page image */
 img {
-    width: 400px;
+    width: 600px;
     height: 300px;
     border-radius: 8px;
     float: left;
 }
- #opening-hour {
-    height: auto;
-    text-align: center;
-    padding: 100px; 
+/* signup page image */
+#sign-image {
+   width: 400px;
+   height: 200px;
+   border-radius: 8px;
+   float: left;
+}
+
+/* Opening Days and Time */
+ #home-page {
+    height: 150px;
+    padding: 80px; 
     float: left;
  }
 
- #signup-form{
-   width: 500px;
-   height: 200px;
-   padding-top: 100px;
-   padding-bottom: 10px;
-   padding-left: 10px;
-   float: right;
- }
- #field{
-   width: 400px;
-   height: 300px;
+
+/* Sign Up form decoration*/
+ #signup-form {
+   width: 300px;
+   height: 80px;
    padding-top: 10px;
    padding-bottom: 20px;
-   padding-left: 20px;
+   padding-left: 15%;
+   padding-right: 10%;
    float: right;
  }
 
- #media-webpage {
-   text-align: center;
-   letter-spacing: 20px;
-   color: brown;
+ /* Sign Up field decoration*/
+ #field{
+    width: 150px;
+    height: 100px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    border-radius: 1%;
+    float: right;
+    padding-right: 20%;
+ }
+
+/* footer decoration*/
+ #sign-footer{
+    position: relative; left: -100px; top: 0px;
+    bottom: 0;
+    width: 60%;
+    height: 1rem;
+    letter-spacing: 40px;
  }
 @media screen and (max-width: 600px){
    #logo-bottom{
